@@ -127,6 +127,14 @@ jobs:
         KERNEL_AUTO_LATEST: true
         WHOAMI: XFZAILDD
 
+    - name: Upload firmware directory
+      uses: actions/upload-artifact@v3
+      if: steps.organize.outputs.status == 'success' && !cancelled()
+      with:
+        name: OpenWrt_firmware
+        path: |
+            ${{ env.PACKAGED_OUTPUTPATH }}
+
     - name: Create release
       uses: ncipollo/release-action@v1
       with:
