@@ -147,12 +147,12 @@ jobs:
             安装到EMMC及在线更新：系统-->晶晨宝盒
 
     - name: Upload firmware directory
-          uses: actions/upload-artifact@v3
-          if: steps.organize.outputs.status == 'success' && !cancelled()
-          with:
-            name: OpenWrt_firmware
-            path: |
-                ${{ env.PACKAGED_OUTPUTPATH }}
+      uses: actions/upload-artifact@v3
+      if: steps.organize.outputs.status == 'success' && !cancelled()
+      with:
+        name: OpenWrt_firmware
+        path: |
+            ${{ env.PACKAGED_OUTPUTPATH }}
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
