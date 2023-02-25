@@ -14,7 +14,7 @@ N1 OpenWrt 旁路由精简版 ( 每周 5 8:00 更新 )
 - KMS Server
 
 **默认设置**
-- 开启DHCP服务器
+- 开启 DHCP 服务器
 - 管理IP :192.168.1.10
 - 用户名 : root 密码 : password 
 
