@@ -1,6 +1,6 @@
 # Actions-OpenWrt-N1
 
-N1 OpenWrt 旁路由精简版 (每周5 8:00 更新)
+N1 OpenWrt 旁路由精简版 ( 每周 5 8:00 更新 )
 
 ---
 ## 介绍
