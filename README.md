@@ -5,13 +5,16 @@ N1 OpenWrt 旁路由精简版 ( 每周 5 8:00 更新 )
 ---
 ## 介绍
 **集成插件**
-- Docker
-- Amlogic
-- OpenClash
 - Adbyby Plus+
 - Aliyundrive webdav
-- ShadowsocksR Plus+
+- Amlogic
+- Ddns
+- Docker
 - KMS Server
+- OpenClash
+- ShadowsocksR Plus+
+- UPnP
+- 上网时间控制
 
 **默认设置**
 - 开启 DHCP 服务器
