@@ -20,7 +20,7 @@ env:
   CONFIG_FILE: .config
   SCRIPT_SH: script.sh
   CONFIG_SH: config.sh
-  REPAIR_OVERVIEW: repair_overview.sh
+  REPAIR_OVERVIEW_SH: repair_overview.sh
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
   
@@ -72,13 +72,12 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
-      run: |
-        cd openwrt && ./scripts/feeds install -a
-        chmod +x $REPAIR_OVERVIEW
-        ./$REPAIR_OVERVIEW
-
+      run:  cd openwrt && ./scripts/feeds install -a
+  
     - name: Load custom configuration
       run: |
+        chmod +x $REPAIR_OVERVIEW_SH
+        ./$REPAIR_OVERVIEW_SH
         chmod +x $CONFIG_SH
         ./$CONFIG_SH
 
