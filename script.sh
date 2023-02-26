@@ -1,8 +1,5 @@
 #!/bin/bash
 cd openwrt
-# wireless
-rm -rf files/etc/config/wireless
-rm -rf files/etc/modules.d/wireless_enable
 
 # Add luci-theme-opentomcat
 #svn co https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
@@ -26,3 +23,6 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 git clone https://github.com/vernesong/OpenClash.git package-temp 
 mv -f package-temp/luci-app-openclash package/lean/
 rm -rf package-temp
+
+#Add SSRplus
+echo 'src-git SSRplus https://github.com/fw876/helloworld' >>feeds.conf.default

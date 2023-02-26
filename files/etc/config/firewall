@@ -14,19 +14,15 @@ config zone
         option network 'lan lan6'                                                                                                                                                    
                                                                                                                                                                                      
 config include                                                                                                                                                                       
-        option path '/etc/firewall.user'                                                                                                                                             
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-config include 'zerotier'                                                                                                                                                            
-        option type 'script'                                                                                                                                                         
-        option path '/etc/zerotier.start'                                                                                                                                            
-        option reload '1'                                                                                                                                                            
-                                                                                                                                                                                     
+        option path '/etc/firewall.user'
+
+                       
 config include 'miniupnpd'                                                                                                                                                           
         option type 'script'                                                                                                                                                         
         option path '/usr/share/miniupnpd/firewall.include'                                                                                                                          
         option family 'any'                                                                                                                                                          
         option reload '1'                                                                                                                                                            
-                                                                                                                                                                                     
+                                                                                                                                                                                   
 config include 'mia'                                                                                                                                                                 
         option type 'script'                                                                                                                                                         
         option path '/etc/mia.include'                                                                                                                                               

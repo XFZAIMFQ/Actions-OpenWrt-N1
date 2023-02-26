@@ -41,3 +41,4 @@ config srvhost
 	option port '1688'
 	option class '0'
 	option weight '100'
+	
