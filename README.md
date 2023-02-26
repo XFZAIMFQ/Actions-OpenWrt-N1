@@ -22,8 +22,8 @@ N1 OpenWrt 旁路由精简版 ( 每周 5 8:00 更新 )
 - 前往 [Releases](https://github.com/XFZAIMFQ/Actions-OpenWrt-N1/releases) 下载镜像
 - 使用 [BalenaEtcher](https://github.com/balena-io/etcher/releases) 烧录到U盘中
 - 关闭主路由 DHCP 服务器
-- 写入EMMC: 系统-->晶晨宝盒-->安装到EMMC
-- 在线更新: 系统-->晶晨宝盒-->在线更新
+- 写入EMMC: 系统-->晶晨宝盒-->安装 OpenWrt
+- 在线更新: 系统-->晶晨宝盒-->在线下载更新
 
 **源码**
 - [OpenWrt Lede](https://github.com/coolsnowwolf/lede)
