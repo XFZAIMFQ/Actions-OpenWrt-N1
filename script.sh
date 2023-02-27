@@ -20,7 +20,9 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 # Add luci-app-openclash
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-amlogic
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
 
 #Add SSRplus
 echo 'src-git SSRplus https://github.com/fw876/helloworld' >>feeds.conf.default
+
+修复
