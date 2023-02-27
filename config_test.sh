@@ -14,7 +14,6 @@ CONFIG_KERNEL_EXT4_FS_POSIX_ACL=y
 CONFIG_KERNEL_EXT4_FS_SECURITY=y
 CONFIG_KERNEL_FS_POSIX_ACL=y
 CONFIG_KERNEL_NET_CLS_CGROUP=y
-CONFIG_PACKAGE_adbyby=y
 CONFIG_PACKAGE_aliyundrive-webdav=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_blkid=y
@@ -25,7 +24,6 @@ CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_docker=y
 CONFIG_PACKAGE_dockerd=y
 CONFIG_PACKAGE_dosfstools=y
-# CONFIG_PACKAGE_etherwake is not set
 CONFIG_PACKAGE_fdisk=y
 CONFIG_PACKAGE_kmod-br-netfilter=y
 CONFIG_PACKAGE_kmod-crypto-cbc=y
@@ -72,28 +70,17 @@ CONFIG_PACKAGE_libwebsockets-full=y
 CONFIG_PACKAGE_libyaml=y
 CONFIG_PACKAGE_losetup=y
 CONFIG_PACKAGE_lsblk=y
-CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
 CONFIG_PACKAGE_luci-app-amlogic=y
-# CONFIG_PACKAGE_luci-app-ddns is not set
 CONFIG_PACKAGE_luci-app-docker=y
 CONFIG_PACKAGE_luci-app-dockerman=y
-CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-openclash=y
-# CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
-# CONFIG_PACKAGE_luci-app-upnp is not set
-# CONFIG_PACKAGE_luci-app-vsftpd is not set
-# CONFIG_PACKAGE_luci-app-wol is not set
-CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
 CONFIG_PACKAGE_luci-lib-docker=y
-# CONFIG_PACKAGE_miniupnpd is not set
 CONFIG_PACKAGE_mount-utils=y
-CONFIG_PACKAGE_netdata=y
 CONFIG_PACKAGE_parted=y
 CONFIG_PACKAGE_perl=y
 CONFIG_PACKAGE_pv=y
@@ -114,8 +101,6 @@ CONFIG_PACKAGE_tini=y
 CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_uuidgen=y
-# CONFIG_PACKAGE_vsftpd-alt is not set
-# CONFIG_PACKAGE_wol is not set
 CONFIG_PARTED_READLINE=y
 CONFIG_PERL_NOCOMMENT=y
 CONFIG_PERL_THREADS=y
