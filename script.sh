@@ -24,5 +24,3 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 
 #Add SSRplus
 echo 'src-git SSRplus https://github.com/fw876/helloworld' >>feeds.conf.default
-
-修复
