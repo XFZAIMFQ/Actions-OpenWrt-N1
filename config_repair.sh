@@ -32,4 +32,4 @@ CONFIG_PACKAGE_perlbase-unicode=y
 CONFIG_PACKAGE_perlbase-unicore=y
 CONFIG_PACKAGE_perlbase-utf8=y
 CONFIG_PACKAGE_perlbase-xsloader=y
-END
+EOF
